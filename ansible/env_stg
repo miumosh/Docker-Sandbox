@@ -1,0 +1,11 @@
+# host list
+mail.stg-example.com
+ 
+[webservers]
+foo.stg-example.com
+bar.stg-example.com
+ 
+[dbservers]
+one.stg-example.com
+two.stg-example.com
+three.stg-example.com
