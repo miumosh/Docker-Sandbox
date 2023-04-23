@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  # web:
+  #   build: .
+  #   command: bin/rails s -p 3000 -b 0.0.0.0
+  #   environment:
+  #     SMTP_HOST: mail
+  #     SMTP_PORT: 1025
+  #   depends_on:
+  #     - mail
+  mail:
+    image: mailhog/mailhog
+    container_name: mailhog
+    ports:
+      - "1025:1025"
+      - "8025:8025"
